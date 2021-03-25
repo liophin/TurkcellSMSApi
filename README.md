@@ -19,15 +19,15 @@ msgSpecialId: Raporlama için kullanılıyor. ID veya neden sms atıldığı bil
 
 isOtn : Birden çok numaraya tek bir mesaj içeriği göndermek için kullanılır.
 
-Parametre değerleri: 
+        Parametre değerleri: 
 
-True – Birden fazla numaraya mesaj gönderildiğinde “messageContent” parametresinde 
-       tek bir mesaj içeriği olduğunu kabul eder 
-       ve tüm numaralara bu içeriğin gönderilmesini sağlar.
+        True – Birden fazla numaraya mesaj gönderildiğinde “messageContent” parametresinde 
+               tek bir mesaj içeriği olduğunu kabul eder 
+               ve tüm numaralara bu içeriğin gönderilmesini sağlar.
 
-False – Birden fazla numaraya mesaj gönderildiğinde “messageContent” parametresinde 
-        her numara için ~ karakteri ile ayrılmış 
-        mesaj içerikleri olduğunu kabul eder
+        False – Birden fazla numaraya mesaj gönderildiğinde “messageContent” parametresinde 
+                her numara için ~ karakteri ile ayrılmış 
+                mesaj içerikleri olduğunu kabul eder
                     
 headerCode : Servisin “GetSenderInfo” metodu ile veya müşteri hizmetlerinden temin edebileceğiniz 
              numerik bir değerdir. Aynı alfanumeriği birden fazla sanal numara üzerinde veya operatörde 
